@@ -1,7 +1,6 @@
 import React from "react";
-import { SafeAreaView, FlatList, Image, TouchableOpacity } from "react-native";
+import { SafeAreaView, View, FlatList, Image, TouchableOpacity } from "react-native";
 import styles from './styles';
-import { FlatList, Image, SafeAreaView, TouchableOpacity, View } from "react-native";
 
 const Gallery = ({ navigation, route }) => {
     const { images } = route?.params || {}; 
